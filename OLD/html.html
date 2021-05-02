@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN IN/UP</title>
+	<style>
+		body{
+			font-family: monospace;
+			background: whitesmoke;
+		}
+		div{
+			padding: 10px;	
+			border:none;
+			border-radius: 50%;
+			display: inline-flex;
+			margin: 2px;
+		}
+		form{
+			padding: 2em;
+			background: white;
+			border: none;
+			border-radius: 10px;
+			box-shadow: 1px 1px 6px gray;
+			text-align: center;
+
+		}
+		label{
+			color: skyblue;
+			display: inline;	
+		}
+		input{
+			background: whitesmoke;
+			border:none;
+			padding: 0.5em;
+			border-radius:2px;
+			color: skyblue;
+		}
+
+	</style>
+</head>
+<body>
+	<form>
+		<label>Email</label><br>
+		<input id='email' type="email"><br>
+		<label>Username</label><br>
+		<input id="username" type="username"><br>
+		<label>Password</label><br>
+		<input id="password" type="password"><br><br>
+		<input id="submit" type="submit" value="Sign-up" >
+		<br>
+		<div id="msg" class="success-alert" class="danger-alert"></div>
+	</form>
+</body>
+<script src="JavaScript.js"></script>
+</html>

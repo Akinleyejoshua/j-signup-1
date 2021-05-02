@@ -1,0 +1,176 @@
+body{
+    font-family: monospace;
+    background:url(Penguins.jpg);
+    background-size: 90em;
+
+}
+
+ul{
+    display: inline-flex;
+    flex-flow: row;
+    background: linear-gradient(rgba(45, 126, 146, 0.479), rgba(230, 229, 229, 0.027));
+    padding: 1em;
+    box-shadow: 0px 0px 10px;
+    border-radius: 0.5em;
+    border:none;
+    padding-left: 33em;
+    padding-right: 33em;
+    position: relative;
+    left: 5em;
+}
+
+li{
+    padding: 1em;
+    list-style: none;
+    transition: 0.5s
+}
+
+li:hover{
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0.5em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+fieldset{
+    background: rgba(0, 0, 0, 0.800);
+    border: none;
+    box-shadow: 0px 0px 2px;
+    border-radius: 0.8em;
+    padding: 1em;
+    margin: 10em 4em 0em 4em;
+    text-align: center;
+   
+}
+
+#login-form{
+    display: inline-flex;
+    flex-flow: row;
+}
+
+
+p{
+    color: white;
+    background: rgba(158, 235, 135, 0.356);
+    padding: 1em;
+    border: none;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 0.5em;
+}
+
+label{
+    color: rgba(255, 255, 255, 0.548);
+}
+
+input{
+    border-style: double;
+    border-top-color: rgba(128, 128, 128, 0);
+    border-left-color: rgba(128, 128, 128, 0);
+    border-right-color: rgba(128, 128, 128, 0);
+    border-bottom-color: rgba(0, 255, 21, 0.555);
+    background: inherit;
+    color: white;
+    transition: 0.5s;
+    font-family: monospace;
+    margin: 1em;
+}
+
+input:hover{
+    border-bottom-color: white;
+    
+}
+
+button{
+    border: green 0.1em solid;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    box-shadow: 0px 0px 0.5px black;  
+    border-radius: 0.5em;
+    transition: 0.5s ;
+
+}
+
+button:hover{
+    box-shadow: 0px 0px 100px black;  
+    background: rgba(255, 0, 0, 0.582);
+    width: 10em;
+    border: none;
+}
+
+button:active{
+    background: linear-gradient( rgba(255, 255, 255, 0.500), rgba(245, 245, 245, 0.500));
+}
+
+footer{
+    flex-flow: row;
+    background: linear-gradient(rgba(110, 110, 110, 0.151), rgba(212, 196, 196, 0.349));
+    padding: 1em;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0.5em;
+    border:none;
+    margin:15em 0em 0em 30em;
+    display: inline-flex;
+    flex-flow: row;
+    color: white;
+}
+
+.error{
+    background: rgba(255, 0, 0, 0.349);
+    color: white;
+    transition: 0.5s;
+    border:none;
+    border-radius: 0.5em;
+}
+
+.success{
+    background: rgba(0, 255, 76, 0.349);
+    color: white;
+    transition: 0.5s;
+    border:none;
+    border-radius: 0.5em;
+}
+
+.loading{
+    background: rgba(0, 89, 255, 0.349);
+    color: white;
+    transition: 0.5s;
+    border:none;
+    border-radius: 0.5em;
+}
+
+#choice{
+    border: 0.1em solid rgba(255, 255, 255, 0.288);
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.1em;
+}
+
+input[type='file']{
+    border: 0.1em solid rgba(255, 255, 255, 0.288);
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.1em;
+}
+
+input[type='date']{
+    border: 0.1em solid rgba(255, 255, 255, 0.288);
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.1em;
+}
+
+#profile-pic{
+    padding: 5em;
+    border: 1px solid rgba(255, 255, 255, 0.288);
+    margin: 0.5em;
+}
+
